@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Andry {
+	
+	public static void main (String[] args) {
+		
+		Scanner in = new Scanner (System.in);
+		System.out.print("Введите первое слогаемое: ");
+		int num1 = in.nextInt();
+		System.out.print("Введите второе слогаемое: ");
+		int num2 = in.nextInt();
+		int summ = num1 + num2;
+		System.out.print("Сумма равна: " + summ);
+		
+		System.out.print("Введите первое вычитание: ");
+		int num3 = in.nextInt();
+		System.out.print("Введите второе вычитание: ");
+		int num4 = in.nextInt();
+		int summ2 = num3 - num4;
+		System.out.print("Рзность равна: "+ summ2);
+
+		System.out.print("Введите первое умножение: ");
+		int num5 = in.nextInt();
+		System.out.print("Введите второе умножение: ");
+		int num6 = in.nextInt();
+		int summ3 = num5 * num6;
+		System.out.print("Произведение равно: "+ summ3);
+		
+		System.out.print("Введите делимое: ");
+		float num7 = in.nextInt();
+		System.out.print("Введите делитель: ");
+		float num8 = in.nextInt();
+		float summ4 = num7/num8;
+		System.out.print("Частное равно: "+ summ4);
+		in.close();
+	}
+
+}
