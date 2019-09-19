@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class OMFG {
+	public static void main (String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("День недели: ");
+		String day = scanner.nextLine();
+		switch (day){
+		case "Понедельник" : 
+				System.out.print("1");
+		break;
+		case "Вторник" : 
+				System.out.print("2");
+		break;
+		case "Среда" :
+				System.out.print("3");
+		break;
+		case "Четверг" : 
+				System.out.print("4");
+		break;
+		case "Пятница" : 
+				System.out.print("5");
+		break;
+		case "Суббота" : 
+				System.out.print("6");
+		break;
+		case "Воскресенье" :
+				System.out.print("7");
+		break;
+		default : 
+				System.out.print("НЕТ");
+		
+		}
+		
+		}
+}
