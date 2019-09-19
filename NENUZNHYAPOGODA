@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class look {
+	public static void main (String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("день недели: ");
+		String day = scanner.nextLine();
+		switch (day){
+		case "понедельник" : 
+				System.out.print("понедельник\n  солнечно\n 40°C");
+		break;
+		case "вторник" : 
+				System.out.print("вторник\n  солнечно\n 27°C");
+		break;
+		case "среда" :
+				System.out.print("среда\n  облачность\n 20°C");
+		break;
+		case "четверг" : 
+				System.out.print("четверг\n  облачность\n 19°C");
+		break;
+		case "пятница" : 
+				System.out.print("пятница\n  облачность\n 20°C");
+		break;
+		case "суббота" : 
+				System.out.print("суббота\n дождь\n 9°C");
+		break;
+		case "воскресенье" :
+				System.out.print("воскресенье\n ясно\n 25°C");
+		break;
+		default : 
+				System.out.print("в недели 7 дней");
+		}
+	}
+}
